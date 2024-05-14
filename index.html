@@ -20,7 +20,7 @@
             font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
-            
+
         }
 
         .logo img {
@@ -66,8 +66,69 @@
             font-weight: 900;
         }
 
+        .line-break::before {
+            content: "\A";
+            white-space: pre;
+            display: block;
+
+        }
+
+        .para {
+            margin-top: 10px;
+        }
+
+        .line-break {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+
+        }
+
+        .download-btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            height: 63px;
+
+        }
+
+        .download-btn button {
+            border: 2px solid rgb(9, 146, 167);
+            border-radius: 12px;
+            background-color: rgb(24, 164, 186);
+            width: 350px;
+        }
+
+        .download-btn button a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+
+        }
+
+        .hotfix {
+            display: flex;
+            margin-top: 100px;
+            margin-left: 220px;
+            font-size: 20px;
+        }
+
+        .hotfix h3 small a{
+            text-decoration: none;
+            color: #000;
+            
+        }
+
+        .hotfix span img {
+            display: flex;
+            margin-top: 10px;
+            margin-right: 10px
+        }
+
         .container {
-            margin-top: 200px;
+            margin-top: 0px;
             display: grid;
             justify-content: center;
             /* align-content: space-evenly; */
@@ -76,6 +137,7 @@
             grid-column-gap: 80px;
             grid-template-columns: 300px 300px 300px;
         }
+
 
         .english {
             display: flex;
@@ -101,7 +163,8 @@
 
         .end ul li a {
             text-decoration: none;
-            color: #000;;
+            color: #000;
+            ;
         }
 
 
@@ -163,14 +226,36 @@
             <div class="heading baloo-2"><span>Download <span class="bold">UltraEdit</span> for
                     Windows</span><img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="">
             </div>
-            <div class="para ">
-                
+            <div class="para baloo-2">
+                <span class="first line-break">Download and try UltraEdit before you buy it! This download includes the
+                    full Windows</span>
+                <span class="second line-break">version of the text editor.</span>
             </div>
+            <div class="download-btn">
+                <button><a href="https://www.ultraedit.com/downloads/uex-thank-you/">DOWNLOAD MAC OR LINUX
+                        VERSION</a></button>
+            </div>
+            <div class="hotfix baloo-2">
+                <span>
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt=""
+                        height="60px">
+                </span>
+                <h3>
+                    Download UltraEdit&nbsp;
+                    <small>v2024.0(released 04/19/2024) |
+                        <a href="https://www.ultraedit.com/updates/uehotfix/">Hotfix</a>
+                    </small>
+                </h3>
+
+            </div>
+
+
         </section>
 
 
 
         <section>
+
             <div class="container">
                 <div class="english item">
                     <h3 class="lang">
